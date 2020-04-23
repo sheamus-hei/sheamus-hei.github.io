@@ -1,38 +1,137 @@
 .App {
-  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fancy {  
+  font-family: 'Josefin Sans', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
   flex-direction: column;
+  height: 100vh;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+}
+header nav {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.header-img{
+  width: 50%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header-text {
+  text-align: center;
+  width: 50%;
+}
+nav ul {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 20px;
+  flex-wrap: wrap;
+  margin: 0;
+}
+li {
+  margin: 10px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid red;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid red;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+main { 
+  width: 90%;
+  margin: 0 auto;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+.about {
+  justify-content: center;
+  margin: 50px;
+}
+.about-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.about-text {
+  padding-left: 30px;
+  width: 60%;
+}
+.proj-img {
+  width: 400px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.proj-text {
+  width: 50%;
+  padding: 30px 0;
+}
+.divider {
+  margin: 15px;
+}
+.skills { 
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .header-img {
+    width: 100%;
+    height: 250px;
   }
-  to {
-    transform: rotate(360deg);
+  .header-text {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .about {
+    margin: 0;
+  }
+  .about-text {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .proj-img {
+    width: 100%;
+    height: 250px;
+  }
+  .proj-text {
+    width: 100%;
+    margin: 0;
+    padding: 15px 0 30px 0;
+  }
+  .skills {
+    margin: 30px 0;
   }
 }
