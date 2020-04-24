@@ -12,7 +12,7 @@ function Home(props) {
   let projects = [
     {
       name: "Frogcraft",
-      description: "You’re a little frog in a big world, and the rest is up to you! In this 2D platformer, hop around and flick your tongue manipulate terrain.",
+      description: "You’re a little frog in a big world, and the rest is up to you! In this 2D platformer, hop around and flick your tongue to manipulate terrain.",
       tech: "Javascript, CSS, HTML5 Canvas",
       link: "https://erik-hei.github.io/frogcraft/",
       github: "https://github.com/erik-hei/frogcraft",
