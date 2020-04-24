@@ -9,5 +9,5 @@ Technology used:
 
 Created by me, design inspired by [this](https://www.gatsbyjs.org/starters/danilowoz/gatsby-advanced-blog-system/) Gatsby template.
 
-![](./public/city.jpg)
+![](./city.jpg)
 
