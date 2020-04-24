@@ -3,7 +3,7 @@ import Slide from '@material-ui/core/Slide';
 
 export default function Header(props) {
     let headStyle={
-        backgroundImage: 'url(' + '../IMG_8379.jpg' + ')'
+        backgroundImage: 'url(' + '../city.jpg' + ')'
     }
 
     return (
