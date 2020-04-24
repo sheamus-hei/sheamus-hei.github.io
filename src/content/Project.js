@@ -5,7 +5,8 @@ export default function Project(props) {
         backgroundImage: 'url(' + props.project.img + ')'
     }
     let gifStyle = {
-        backgroundImage: 'url(' + props.project.gif + ')'
+        backgroundImage: 'url(' + props.project.gif + ')',
+        backgroundPosition: 'left'
     }
     return (
         <div className="section">

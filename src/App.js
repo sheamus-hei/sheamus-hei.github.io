@@ -56,7 +56,8 @@ function App() {
       </header>
       <main>
         <About id="about" />
-        <Project id="projects" project={projects[3]} />
+        <h1 className="fancy proj-title" id="projects">Projects</h1>
+        <Project project={projects[3]} />
         <Project project={projects[2]} />
         <Project project={projects[1]} />
         <Project project={projects[0]} />

@@ -93,6 +93,9 @@ main {
   padding-left: 30px;
   width: 60%;
 }
+.proj-title {
+  text-align: center;
+}
 .proj-img {
   width: 400px;
   height: 300px;
