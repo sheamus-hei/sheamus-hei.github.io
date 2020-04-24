@@ -11,7 +11,7 @@ export default function About(props) {
             <div className="about-text">
                 <h2 className="fancy">About</h2>
                 <p>
-                Industrial Engineer turned full-stack developer. With a strong technical background in manufacturing and engineering, I have experience solving a wide variety of problems. Knowledge of human factors and customer service understanding of front end user experience add to my statistical knowledge and data science research for a full stack development mindset. Experience with Javascript, Java, Python, and SQL dialects. 
+                I am a Seattle-based full-stack developer with a strong technical industrial engineering background. My experience solving a diverse range of engineering problems and knowledge of human factors add to my statistical research background for a full stack mindset. Experience with Javascript, Python, React.js, SQL dialects, and Java. 
                 </p>
             </div>
         </div>

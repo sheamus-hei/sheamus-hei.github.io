@@ -17,29 +17,33 @@ function App() {
       tech: "Javascript, CSS, HTML5 Canvas",
       link: "https://erik-hei.github.io/frogcraft/",
       github: "https://github.com/erik-hei/frogcraft",
-      img: "http://www.placekitten.com/300/300"
+      img: "./frogcraft.png",
+      gif: "./frogcraft.gif"
     },{
       name: "NatureFinder",
       description: "Looking for wildlife in your area? NatureFinder allows you to search for any location worldwide and see animals that were spotted recently nearby.",
       tech: "Express.js, Node.js, PostGreSQL(Sequelize), EJS, HTML, CSS, Bootstrap, Mapbox",
       link: "http://naturefinder.herokuapp.com/",
       github: "https://github.com/erik-hei/nature-finder",
-      img: "http://www.placekitten.com/300/300"
+      img: "./naturefinder.png",
+      gif: "./naturefinder.gif"
     },{
       name: "No Scroll Recipes",
       description: "Are you tired of scrolling past a food blogger’s life story to get to their recipe? This app is for you. No Scroll is a micro-blogging platform for recipes that limits recipe descriptions to the length of a tweet.",
       tech: "MERN - MongoDB (Mongoose), Express.js, React, Node.js, CSS",
       link: "https://recipe-app-29.herokuapp.com/",
       github: "https://github.com/erik-hei/recipe-app-project3",
-      img: "http://www.placekitten.com/300/300"
+      img: "./noscroll.png",
+      gif: "./noscroll.gif"
     },{
       name: "Lyrical",
       description: "Now you can create poetry using your favorite song lyrics. Make new poems and then search lyrics from Genius to add fresh phrases to your creations.",
       quote: "“This app sparks joy.” - Sarah King, GA Instructor",
-      tech: "Flask (Python), React, PostGreSQL (SQLALchemy), CSS",
+      tech: "Flask (Python), React, PostGreSQL (SQLALchemy), Material-UI, CSS",
       link: "https://erik-hei.github.io/lyrical/",
       github: "https://github.com/erik-hei/lyrical",
-      img: "http://www.placekitten.com/300/300"
+      img: "./lyrical.png",
+      gif: "./lyrical.png"
     }
   ]
 
@@ -52,9 +56,9 @@ function App() {
       </header>
       <main>
         <About id="about" />
-        <Project id="projects" project={projects[1]} />
-        <Project project={projects[3]} />
+        <Project id="projects" project={projects[3]} />
         <Project project={projects[2]} />
+        <Project project={projects[1]} />
         <Project project={projects[0]} />
         <Skills id="skills" />
       </main>

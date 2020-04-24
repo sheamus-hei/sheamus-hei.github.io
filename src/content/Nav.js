@@ -5,7 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Nav(props) {
     return (
-        <Slide direction="up" in="true" timeout={{enter:1000}}>
+        <Slide direction="up" in="true" timeout={{enter:2000}}>
             <nav>
                 <ul>
                     <Link to="#about"><li>About</li></Link>
