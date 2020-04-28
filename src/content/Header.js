@@ -15,7 +15,7 @@ export default function Header(props) {
             <Slide direction="left" in="true" timeout={{enter:1000}}>
                 <div className="header-text">
                     <h1 className="fancy">Erik Heikkila</h1>
-                    <h2>Full Stack Developer</h2>
+                    <h2>Full Stack Web Developer</h2>
                 </div>
             </Slide>
         </div>
