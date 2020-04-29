@@ -46,6 +46,11 @@ function Home(props) {
     }
   ]
 
+  let skills = {
+    skills: ["Javascript", "Python", "Java", "React.js", "Node.js", "Express.js", "SQL (PostGreSQL, Sequelize, SQLAlchemy)", "MongoDB (Mongoose)", "Flask", "Bootstrap", "Heroku", "Git", "HTML", "CSS", "R"],
+    pics: ["./jslogo.png", "./logo-python.png", "./logo-java.png", "./logo-react.png", "./logo-node.png", "./logo-express.png", "./logo-flask.png", "./logo-psql.png", "./logo-mongo.png", "./logo-r.png"]
+  }
+
   return (
     <div className="App">
       <header>
@@ -64,12 +69,15 @@ function Home(props) {
             <Project project={projects[0]} />
         </div>
         <div id="skills">
-            <Skills />
+            <Skills skills={skills} />
         </div>
       </main>
       <div id="contact">
         <Contact />
       </div>
+      <footer>
+        <p>This portfolio was handcrafted in React by Erik Heikkila, © 2020</p>
+      </footer>
     </div>
   );
 }

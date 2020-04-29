@@ -20,9 +20,9 @@ export default function Project(props) {
                 {props.project.quote?<blockquote>{props.project.quote}</blockquote>:""}
                 <p><strong>Tech: </strong><span className="tech">{props.project.tech}</span></p>
                 <div className="proj-links">
-                    <a href={props.project.link} target="_blank">View {props.project.name} live</a>
+                    <a href={props.project.link} target="_blank" rel="noopener noreferrer">View {props.project.name} live</a>
                     <span className="divider">|</span>
-                    <a href={props.project.github} target="_blank">Project GitHub</a>
+                    <a href={props.project.github} target="_blank" rel="noopener noreferrer">Project GitHub</a>
                 </div>
             </div>
         </div>
