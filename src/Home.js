@@ -42,7 +42,7 @@ function Home(props) {
       link: "https://erik-hei.github.io/lyrical/",
       github: "https://github.com/erik-hei/lyrical",
       img: "./lyrical.png",
-      gif: "./lyrical.png"
+      gif: "./lyrical.gif"
     }
   ]
 
