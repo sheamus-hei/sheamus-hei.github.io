@@ -22,7 +22,7 @@ export default function Contact(props) {
                 </li>
                 <li>
                     <Octicon icon={Inbox} /><div className="spacer"></div>
-                    <a href="https://www.dropbox.com/s/q6njmfa5zxjk7hz/Erik-Heikkila-Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">Resume</a>
+                    <a href="https://www.dropbox.com/s/r2dwp94mivkkp01/Erik-Heikkila-Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">Resume</a>
                 </li>
             </ul>
         </nav>
