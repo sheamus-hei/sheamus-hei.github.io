@@ -53,7 +53,11 @@ function Home(props) {
   ]
 
   let skills = {
-    skills: ["Javascript", "Python", "Java", "React.js", "Node.js", "Express.js", "SQL (PostGreSQL, Sequelize, SQLAlchemy)", "MongoDB (Mongoose)", "Flask", "Bootstrap", "Heroku", "Git", "HTML", "CSS", "R"],
+    skills: {
+      languages: ["JavaScript", "Python", "Java", "R"],
+      structures:	["SQL (PostGreSQL, MySQL)", "NoSQL (MongoDB)", "REST APIs", "GraphQL"],
+      libraries: ["React", "Express", "Node", "Sequelize", "SQLAlchemy", "Mongoose", "Flask"]
+    },
     pics: ["./jslogo.png", "./logo-python.png", "./logo-java.png", "./logo-react.png", "./logo-node.png", "./logo-express.png", "./logo-flask.png", "./logo-psql.png", "./logo-mongo.png", "./logo-r.png"]
   }
 
