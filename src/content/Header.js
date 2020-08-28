@@ -8,10 +8,10 @@ export default function Header(props) {
 
     return (
         <div className="header">
-            <Slide direction="right" in="true" timeout={{enter:1000}}>
+            {/* <Slide direction="right" in="÷true" timeout={{enter:1000}}> */}
                 <div className="header-img" style={headStyle}>
                 </div>
-            </Slide>
+            {/* </Slide> */}
             <Slide direction="left" in="true" timeout={{enter:1000}}>
                 <div className="header-text">
                     <h1 className="fancy">Erik Heikkila</h1>
