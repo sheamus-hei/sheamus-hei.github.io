@@ -36,13 +36,19 @@ function Home(props) {
       gif: "./noscroll.gif"
     },{
       name: "Lyrical",
-      description: "Now you can create poetry using your favorite song lyrics. Make new poems and then search lyrics from Genius to add fresh phrases to your creations.",
+      description: "Create poetry using your favorite song lyrics. Make new poems and then search lyrics from Genius to add fresh phrases to your creations.",
       quote: "“This app sparks joy.” - Sarah King, GA Instructor",
       tech: "Flask (Python), React, PostGreSQL (SQLALchemy), Material-UI, CSS",
       link: "https://erik-hei.github.io/lyrical/",
       github: "https://github.com/erik-hei/lyrical",
       img: "./lyrical.png",
       gif: "./lyrical.gif"
+    }, {
+      name: "InJoy",
+      description: "This social networking app suggests different activities to do in quarantine. Then, post about your experience and view the feed to see what your friends have done.",
+      tech: "GraphQL, React, PostGreSQL (Sequelize), Material-UI, CSS",
+      github: "https://github.com/melissay94/InJoy",
+      imgs: ["./injoyHomepage.png", "injoy-prompts.gif"]
     }
   ]
 
@@ -64,6 +70,7 @@ function Home(props) {
         <div id="projects">
             <h1 className="fancy proj-title">Projects</h1>
             <Project project={projects[3]} />
+            <Project project={projects[4]} />
             <Project project={projects[2]} />
             <Project project={projects[1]} />
             <Project project={projects[0]} />
