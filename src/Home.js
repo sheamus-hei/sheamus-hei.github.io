@@ -5,6 +5,7 @@ import Header from './content/Header';
 import Nav from './content/Nav';
 import About from './content/About';
 import Project from './content/Project';
+import Blog from './content/Blog';
 import Skills from './content/Skills';
 import Contact from './content/Contact';
 
@@ -52,6 +53,13 @@ function Home(props) {
     }
   ]
 
+  let blog = {
+    name: "Whiteboarding with Erik",
+    description: "Every week, I publish articles on my blog where I explain data structures and algorithms in Python. Working as a TA, I noticed that many of my students wanted more resources for learning how to do problems on technical interviews. Typically, these concepts are taught using Java, but my students had learned Python instead. So, I started a blog on Dev.To that explains these problems in an easy-to-understand, step-by-step manner designed specifically for bootcamp grads and other individuals from non-traditional backgrounds.",
+    img: "./wb.jpg",
+    link: "https://dev.to/erikhei"
+  }
+
   let skills = {
     skills: {
       languages: ["JavaScript", "Python", "Java", "R"],
@@ -79,11 +87,16 @@ function Home(props) {
             <Project project={projects[1]} />
             <Project project={projects[0]} />
         </div>
+        <div id="blog">
+            <h1 className="fancy proj-title">Blog</h1>
+            <Blog blog={blog} />
+        </div>
         <div id="skills">
             <Skills skills={skills} />
         </div>
       </main>
       <div id="contact">
+        <h1 className="fancy proj-title contact">Contact</h1>
         <Contact />
       </div>
       <footer>

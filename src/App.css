@@ -60,6 +60,11 @@ nav ul {
   flex-wrap: wrap;
   margin: 0;
 }
+/* .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0
+} */
 li {
   margin: 10px;
   display: flex;
@@ -183,6 +188,10 @@ footer {
   text-align: center;
   margin: 0;
   padding: 10px;
+}
+
+.contact {
+  margin-bottom: 0;
 }
 @media only screen and (max-width: 600px) {
   .header-img {

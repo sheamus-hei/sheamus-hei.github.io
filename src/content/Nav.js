@@ -7,9 +7,10 @@ export default function Nav(props) {
     return (
         <Slide direction="up" in="true" timeout={{enter:2000}}>
             <nav>
-                <ul>
+                <ul class="sticky"> 
                     <Link to="/#about"><li>About</li></Link>
                     <Link to="/#projects"><li>Projects</li></Link>
+                    <Link to="/#blog"><li>Blog</li></Link>
                     <Link to="/#skills"><li>Skills</li></Link>
                     <Link to="/#contact"><li>Contact & Resume</li></Link>
                 </ul>
