@@ -31,7 +31,7 @@ function Home(props) {
       name: "No Scroll Recipes",
       description: "Are you tired of scrolling past a food blogger’s life story to get to their recipe? This app is for you. No Scroll is a micro-blogging platform for recipes that limits recipe descriptions to the length of a tweet.",
       tech: "MERN - MongoDB (Mongoose), Express.js, React, Node.js, CSS",
-      link: "https://recipe-app-29.herokuapp.com/",
+      link: "https://erik-hei.github.io/noscroll-client/",
       github: "https://github.com/erik-hei/recipe-app-project3",
       img: "./noscroll.png",
       gif: "./noscroll.gif"
