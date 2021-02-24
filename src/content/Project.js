@@ -36,6 +36,7 @@ export default function Project(props) {
                 <h2 className="fancy">{props.project.name}</h2>
                 <p>{props.project.description}</p>
                 {props.project.quote?<blockquote>{props.project.quote}</blockquote>:""}
+                <p><strong>My Role: </strong><span className="tech">{props.project.role}</span></p>
                 <p><strong>Tech: </strong><span className="tech">{props.project.tech}</span></p>
                 <div className="proj-links">
                     {projectLink}
