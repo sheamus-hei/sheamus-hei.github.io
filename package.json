@@ -1,8 +1,8 @@
 {
-  "name": "erik-portfolio",
+  "name": "sheamus-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://erik-hei.github.io/",
+  "homepage": "https://sheamus-hei.github.io/",
   "dependencies": {
     "@material-ui/core": "^4.9.11",
     "@primer/octicons-react": "^9.6.0",

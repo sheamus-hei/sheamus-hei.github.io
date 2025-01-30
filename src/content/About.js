@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About(props) {
     let aboutStyle={
-        backgroundImage: 'url(' + '../erik.jpeg' + ')'
+        backgroundImage: 'url(' + '../sheamus.jpeg' + ')'
     }
     return (
         <div className="section about">
